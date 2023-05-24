@@ -1,56 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T03:34:37.610Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="sCXKzelzFflRF8CGs_C6" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T10:21:31.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="UAkHCoasNfWR9Irv_xLn" version="21.3.3" type="github">
   <diagram name="Page-1" id="XbqKeyHE7kK9JP9Lux6c">
-    <mxGraphModel dx="880" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-1" value="Kernal Space&lt;br&gt;内核空间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-1" value="Kernal Space&lt;br&gt;内核空间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="320" y="100" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-2" value="Stack&lt;br&gt;栈空间（又称堆栈）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-2" value="Stack&lt;br&gt;栈空间（又称堆栈）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="320" y="150" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-3" value="Memory Mapping&lt;br&gt;内存映射" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-3" value="Memory Mapping&lt;br&gt;内存映射" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="320" y="250" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-4" value="Heap (Free Store)&lt;br&gt;堆(又称自由空间)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-4" value="Heap (Free Store)&lt;br&gt;堆(又称自由空间)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="320" y="384" width="120" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-5" value="BBS Segment&lt;br&gt;BBS段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-5" value="BBS Segment&lt;br&gt;BBS段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="320" y="430" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-6" value="ELF(Text Segment)&lt;br&gt;ELF段（文本段）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-6" value="ELF(Text Segment)&lt;br&gt;ELF段（文本段）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="320" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-7" value="Data Segment&lt;br&gt;Data段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-7" value="Data Segment&lt;br&gt;Data段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="320" y="470" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7WVN1W6h_w_lqFGRio2q-3">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7WVN1W6h_w_lqFGRio2q-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="365" y="350" as="sourcePoint" />
             <mxPoint x="380" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7WVN1W6h_w_lqFGRio2q-2">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7WVN1W6h_w_lqFGRio2q-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="290" as="sourcePoint" />
             <mxPoint x="380" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7WVN1W6h_w_lqFGRio2q-4">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="7WVN1W6h_w_lqFGRio2q-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="380" as="sourcePoint" />
             <mxPoint x="380" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-15" value="低地址字节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-15" value="低地址字节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="560" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-16" value="高地址字节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7WVN1W6h_w_lqFGRio2q-16" value="高地址字节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="90" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7WVN1W6h_w_lqFGRio2q-19" value="只读" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#A680B8;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="267" y="120" width="30" height="30" as="geometry" />
+        <mxCell id="BGBjX1q77fg6Wr8EUMSI-1" value="存放二进制代码区域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="464.5" y="535" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BGBjX1q77fg6Wr8EUMSI-2" value="存放&lt;font color=&quot;#ea6b66&quot;&gt;已经初始化&lt;/font&gt;的静态变量，全局变量，常量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="480" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BGBjX1q77fg6Wr8EUMSI-3" value="存放未初始化的静态变量，全局变量，默认值为0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="435" width="275" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BGBjX1q77fg6Wr8EUMSI-5" value="用于malloc,free,new,delete等操作的内存空间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="464.5" y="399" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BGBjX1q77fg6Wr8EUMSI-6" value="存放函数的参数或局部变量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="464.5" y="160" width="165.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
